@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="2" parallel="tests">
+    <test name="Test Calculator on Pixel XL">
+        <parameter name="deviceIndex" value="0"/>
+        <parameter name="environment" value="local"/>
+        <classes>
+            <class name="BasicOperators"/>
+        </classes>
+    </test>
+
+    <test name="Test Calculator on Nexus S">
+        <parameter name="deviceIndex" value="1"/>
+        <parameter name="environment" value="local"/>
+        <classes>
+            <class name="BasicOperators"/>
+        </classes>
+    </test>
+
+</suite>

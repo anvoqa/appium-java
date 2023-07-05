@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "anvo_ROWl64",
+  "access_key": "ViBNthm5bCsPozaKrhLW",
+
+  "capabilities": {
+    "project": "Appium Demo with BrowserStack",
+    "build": "browserstack-build-1",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "app": "bs://470844bfb681324bf459daa5a396a62a2b8a0f8d"
+  },
+
+  "environments": [
+    {
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    },
+    {
+      "device": "Samsung Galaxy S10e",
+      "os_version": "9.0"
+    }
+  ]
+}

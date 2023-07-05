@@ -1,0 +1,20 @@
+{ "serverUrl": "http://127.0.0.1:4723/wd/hub",
+  "app": {
+    "appPackage": "com.google.android.calculator",
+    "appActivity": "com.android.calculator2.Calculator"
+  },
+  "capabilities":[
+    {
+      "deviceName": "PixelXL",
+      "udid": "emulator-5554",
+      "platformName": "Android",
+      "platformVersion": "11.0"
+    },
+    {
+      "deviceName": "NexusS",
+      "udid": "emulator-5556",
+      "platformName": "Android",
+      "platformVersion": "12.0"
+    }
+  ]
+}
